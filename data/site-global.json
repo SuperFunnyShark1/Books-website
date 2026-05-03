@@ -2,6 +2,7 @@
   "ultimaActualizacion": "2/5/2026",
   "ultimaActualizacionISO": "2026-05-02",
   "site": {
+    "idiomaHtml": "es",
     "nombreCorto": "Club de lectura",
     "marcaCabecera": {
       "texto": "Club de libros",
@@ -28,7 +29,7 @@
     },
     "pieDePagina": {
       "imagenFondo": "images/cozy_books.jpg",
-      "prefijoUltimaActualizacion": "Ultima actualización:"
+      "prefijoUltimaActualizacion": "Última actualización:"
     }
   }
 }

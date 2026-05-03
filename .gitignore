@@ -1,0 +1,37 @@
+# ========================
+# VS Code Settings
+# ========================
+# We ignore this because your personal editor settings (like colors or zoom level) 
+# shouldn't override someone else's if they download your code.
+.vscode/
+
+# ========================
+# AI Agents (Claw / Cline / Roo)
+# ========================
+# These agents create hidden folders for their memory and tasks. 
+# You definitely don't want to upload thousands of lines of AI chat logs to GitHub.
+.cline/
+.roo/
+.claw/
+claw_logs/
+run_claw.bat
+.sandbox/
+
+# ========================
+# Python & Conda
+# ========================
+# Python sometimes creates hidden cache files when running local servers.
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ========================
+# Windows / OS Files
+# ========================
+# Windows automatically creates hidden thumbnail caches that Git hates.
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+License
+
+

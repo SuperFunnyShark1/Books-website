@@ -17,19 +17,19 @@
       },
       {
         "clase": "whatsapp",
-        "texto": "Grupo de whatsapp",
+        "texto": "Grupo de WhatsApp",
         "href": "https://chat.whatsapp.com/ENLACE-DEL-GRUPO",
         "target": "_blank",
         "rel": "noopener noreferrer"
       }
     ],
-    "nota": "Sustituye los href por tu invitación real de Discord y el enlace del grupo de WhatsApp"
+    "nota": "Sustituye los href por tu invitación real de Discord y el enlace del grupo de WhatsApp."
   },
   "lugarReunion": {
     "tituloSeccion": "Lugar de reunión",
     "fecha": {
       "etiqueta": "Fecha:",
-      "texto": "jueves 7 de mayo / 2026."
+      "texto": "Jueves 7 de mayo de 2026."
     },
     "foto": {
       "src": "images/place.jpg",
@@ -38,6 +38,6 @@
       "alto": 500
     },
     "etiquetaAlmuerzo": "Hora de almuerzo",
-    "aviso": "Recordar que el lugar y fecha pueden cambiar si surge algún inconveniente! ¡Así que estar atento a las redes!!"
+    "aviso": "Recuerda que el lugar y la fecha pueden cambiar si surge algún inconveniente. ¡Así que mantente atento a las redes!"
   }
 }

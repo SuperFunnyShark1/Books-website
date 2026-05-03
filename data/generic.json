@@ -1,5 +1,6 @@
 {
   "pagina": "generic.html",
+  "idiomaPagina": "en",
   "tituloDocumento": "Generic - Solid State by HTML5 UP",
   "encabezadoPagina": {
     "titulo": "Generic",
@@ -40,5 +41,5 @@
       "hrefBoton": "#"
     }
   ],
-  "nota": "Página de demostración del tema Solid State (HTML5 UP); el menú usa enlacesPlantilla en site-global.json."
+  "nota": "Página de demostración del tema Solid State (HTML5 UP); el menú lateral usa la lista enlacesPlantillaHtml5Up de site-global.json."
 }

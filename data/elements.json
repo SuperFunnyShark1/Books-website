@@ -1,5 +1,6 @@
 {
   "pagina": "elements.html",
+  "idiomaPagina": "en",
   "tituloDocumento": "Elements - Solid State by HTML5 UP",
   "esPlantillaDemo": true,
   "encabezadoPagina": {
@@ -8,7 +9,7 @@
   },
   "texto": {
     "tituloSeccion": "Text",
-    "parrafoInlineHtml": "<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.\n\t\t\t\t\t\t\t\t\t\tThis is <sup>superscript</sup> text and this is <sub>subscript</sub> text.\n\t\t\t\t\t\t\t\t\t\tThis is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href=\"#\">this is a link</a>.</p>",
+    "parrafoInlineHtml": "<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.\nThis is <sup>superscript</sup> text and this is <sub>subscript</sub> text.\nThis is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href=\"#\">this is a link</a>.</p>",
     "subtituloBlockquote": "Blockquote",
     "blockquote": "Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.",
     "subtituloPre": "Preformatted",
@@ -16,6 +17,14 @@
   },
   "listas": {
     "tituloSeccion": "Lists",
+    "titulosInternos": {
+      "sinOrden": "Unordered",
+      "alternativa": "Alternate",
+      "ordenadas": "Ordered",
+      "iconos": "Icons",
+      "acciones": "Actions",
+      "paginacion": "Pagination"
+    },
     "sinOrden": ["Dolor pulvinar etiam.", "Sagittis adipiscing.", "Felis enim feugiat."],
     "sinOrdenAlternativa": ["Dolor pulvinar etiam.", "Sagittis adipiscing.", "Felis enim feugiat."],
     "ordenadas": [
@@ -32,15 +41,76 @@
       { "marca": "instagram", "href": "#", "etiqueta": "Instagram" },
       { "marca": "github", "href": "#", "etiqueta": "Github" }
     ],
-    "paginacion": {
-      "prev": "Prev",
-      "next": "Next",
-      "paginas": ["1", "2", "3", "…", "8", "9", "10"],
-      "paginaActiva": "1"
-    }
+    "accionesColumnas": [
+      {
+        "columna": "col-6 col-12-medium",
+        "grupos": [
+          {
+            "clase": "actions",
+            "items": [
+              { "tipo": "a", "href": "#", "clase": "button primary", "texto": "Default" },
+              { "tipo": "a", "href": "#", "clase": "button", "texto": "Default" }
+            ]
+          },
+          {
+            "clase": "actions small",
+            "items": [
+              { "tipo": "a", "href": "#", "clase": "button primary small", "texto": "Small" },
+              { "tipo": "a", "href": "#", "clase": "button small", "texto": "Small" }
+            ]
+          },
+          {
+            "clase": "actions stacked",
+            "items": [
+              { "tipo": "a", "href": "#", "clase": "button primary", "texto": "Default" },
+              { "tipo": "a", "href": "#", "clase": "button", "texto": "Default" }
+            ]
+          },
+          {
+            "clase": "actions stacked small",
+            "items": [
+              { "tipo": "a", "href": "#", "clase": "button primary small", "texto": "Small" },
+              { "tipo": "a", "href": "#", "clase": "button small", "texto": "Small" }
+            ]
+          }
+        ]
+      },
+      {
+        "columna": "col-6 col-12-medium",
+        "grupos": [
+          {
+            "clase": "actions stacked",
+            "items": [
+              { "tipo": "a", "href": "#", "clase": "button primary fit", "texto": "Default" },
+              { "tipo": "a", "href": "#", "clase": "button fit", "texto": "Default" }
+            ]
+          },
+          {
+            "clase": "actions stacked small",
+            "items": [
+              { "tipo": "a", "href": "#", "clase": "button primary small fit", "texto": "Small" },
+              { "tipo": "a", "href": "#", "clase": "button small fit", "texto": "Small" }
+            ]
+          }
+        ]
+      }
+    ],
+    "paginacionItems": [
+      { "tipo": "span", "clase": "button small disabled", "texto": "Prev" },
+      { "tipo": "a", "href": "#", "clase": "page active", "texto": "1" },
+      { "tipo": "a", "href": "#", "clase": "page", "texto": "2" },
+      { "tipo": "a", "href": "#", "clase": "page", "texto": "3" },
+      { "tipo": "span", "texto": "…" },
+      { "tipo": "a", "href": "#", "clase": "page", "texto": "8" },
+      { "tipo": "a", "href": "#", "clase": "page", "texto": "9" },
+      { "tipo": "a", "href": "#", "clase": "page", "texto": "10" },
+      { "tipo": "a", "href": "#", "clase": "button small", "texto": "Next" }
+    ]
   },
   "tabla": {
     "tituloSeccion": "Table",
+    "tituloSubseccionDefault": "Default",
+    "tituloSubseccionAlternativa": "Alternate",
     "columnas": ["Name", "Description", "Price"],
     "filas": [
       ["Item One", "Ante turpis integer aliquet porttitor.", "29.99"],
@@ -53,15 +123,51 @@
   },
   "botones": {
     "tituloSeccion": "Buttons",
-    "etiquetas": [
-      "Primary",
-      "Default",
-      "Large",
-      "Small",
-      "Fit",
-      "Fit + Small",
-      "Icon",
-      "Disabled"
+    "grupos": [
+      {
+        "clase": "actions",
+        "items": [
+          { "tipo": "a", "href": "#", "clase": "button primary", "texto": "Primary" },
+          { "tipo": "a", "href": "#", "clase": "button", "texto": "Default" }
+        ]
+      },
+      {
+        "clase": "actions",
+        "items": [
+          { "tipo": "a", "href": "#", "clase": "button large", "texto": "Large" },
+          { "tipo": "a", "href": "#", "clase": "button small", "texto": "Small" }
+        ]
+      },
+      {
+        "clase": "actions fit",
+        "items": [
+          { "tipo": "a", "href": "#", "clase": "button fit", "texto": "Fit" },
+          { "tipo": "a", "href": "#", "clase": "button primary fit", "texto": "Fit" },
+          { "tipo": "a", "href": "#", "clase": "button fit", "texto": "Fit" }
+        ]
+      },
+      {
+        "clase": "actions fit small",
+        "items": [
+          { "tipo": "a", "href": "#", "clase": "button primary fit small", "texto": "Fit + Small" },
+          { "tipo": "a", "href": "#", "clase": "button fit small", "texto": "Fit + Small" },
+          { "tipo": "a", "href": "#", "clase": "button primary fit small", "texto": "Fit + Small" }
+        ]
+      },
+      {
+        "clase": "actions",
+        "items": [
+          { "tipo": "a", "href": "#", "clase": "button primary icon solid fa-download", "texto": "Icon" },
+          { "tipo": "a", "href": "#", "clase": "button icon solid fa-download", "texto": "Icon" }
+        ]
+      },
+      {
+        "clase": "actions",
+        "items": [
+          { "tipo": "span", "clase": "button primary disabled", "texto": "Disabled" },
+          { "tipo": "span", "clase": "button disabled", "texto": "Disabled" }
+        ]
+      }
     ]
   },
   "formulario": {

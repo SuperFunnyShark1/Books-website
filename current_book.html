@@ -1,15 +1,11 @@
-<!DOCTYPE HTML>
-<!--
-	Solid State by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<!DOCTYPE html>
+<!-- Contenido: data/site-global.json + data/current_book.json -->
 <html>
 	<head>
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-		<title>Lecturas en progreso — Club de lectura</title>
+		<title></title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -22,7 +18,6 @@
 				max-width: 40em;
 				margin: 0 auto;
 			}
-
 			.reading-card {
 				background: rgba(255, 255, 255, 0.04);
 				border: 1px solid rgba(255, 255, 255, 0.12);
@@ -31,12 +26,10 @@
 				box-shadow: 0 10px 36px rgba(0, 0, 0, 0.28);
 				transition: border-color 0.2s ease, box-shadow 0.2s ease;
 			}
-
 			.reading-card:hover {
 				border-color: rgba(255, 255, 255, 0.18);
 				box-shadow: 0 14px 44px rgba(0, 0, 0, 0.35);
 			}
-
 			.reading-card h3.reading-card-title {
 				font-family: "Rubik", Helvetica, sans-serif;
 				font-size: 1.35em;
@@ -48,7 +41,6 @@
 				padding-bottom: 0.75em;
 				border-bottom: 2px solid rgba(200, 175, 130, 0.45);
 			}
-
 			.reading-card .cover-wrap {
 				margin: 0 auto 1.5em;
 				max-width: 220px;
@@ -58,14 +50,12 @@
 					0 4px 24px rgba(0, 0, 0, 0.45),
 					0 0 0 1px rgba(255, 255, 255, 0.08);
 			}
-
 			.reading-card .cover-wrap img {
 				display: block;
 				width: 100%;
 				height: auto;
 				vertical-align: middle;
 			}
-
 			.reading-card .book-title {
 				font-family: "Rubik", Helvetica, sans-serif;
 				font-size: 1.65em;
@@ -75,7 +65,6 @@
 				line-height: 1.2;
 				text-align: center;
 			}
-
 			.reading-card .book-author {
 				font-family: "Rubik", Helvetica, sans-serif;
 				font-size: 1em;
@@ -85,7 +74,6 @@
 				margin: 0 0 1.25em 0;
 				text-align: center;
 			}
-
 			.reading-card .book-desc {
 				font-family: "Rubik", Helvetica, sans-serif;
 				font-size: 0.95em;
@@ -95,14 +83,12 @@
 				margin: 0 0 1.5em 0;
 				text-align: center;
 			}
-
 			.reading-card .chapters {
 				font-family: "Rubik", Helvetica, sans-serif;
 				text-align: center;
 				padding-top: 1.25em;
 				border-top: 1px solid rgba(255, 255, 255, 0.1);
 			}
-
 			.reading-card .chapters-label {
 				display: block;
 				font-size: 0.8em;
@@ -112,18 +98,15 @@
 				color: rgba(255, 255, 255, 0.5);
 				margin-bottom: 0.5em;
 			}
-
 			.reading-card .chapters-nums {
 				font-size: 1.25em;
 				font-weight: 600;
 				color: rgba(255, 255, 255, 0.92);
 				letter-spacing: 0.15em;
 			}
-
 			.reading-card.reading-card--list h3.reading-card-title {
 				margin-bottom: 1em;
 			}
-
 			.reading-card ol.reading-done {
 				margin: 0;
 				padding: 0 0 0 1.5em;
@@ -133,16 +116,13 @@
 				line-height: 1.8;
 				color: rgba(255, 255, 255, 0.85);
 			}
-
 			.reading-card ol.reading-done li {
 				padding-left: 0.4em;
 			}
-
 			.reading-card ol.reading-done li::marker {
 				color: rgba(200, 175, 130, 0.9);
 				font-weight: 600;
 			}
-
 			.reading-card ul.reading-suggestions {
 				margin: 0;
 				padding: 0 0 0 1.35em;
@@ -152,20 +132,16 @@
 				line-height: 1.85;
 				color: rgba(255, 255, 255, 0.85);
 			}
-
 			.reading-card ul.reading-suggestions li {
 				padding-left: 0.35em;
 			}
-
 			.reading-card ul.reading-suggestions li::marker {
 				color: rgba(200, 175, 130, 0.85);
 			}
-
 			@media screen and (max-width: 736px) {
 				.reading-card {
 					padding: 1.5em 1.25em 1.35em;
 				}
-
 				.reading-card .book-title {
 					font-size: 1.4em;
 				}
@@ -173,94 +149,61 @@
 		</style>
 	</head>
 	<body class="is-preload">
-
 		<div id="page-wrapper">
-
 			<header id="header">
-				<h1><a href="index.html">Club de libros</a></h1>
+				<h1><a href="#"></a></h1>
 				<nav>
-					<a href="#menu">Menu</a>
+					<a href="#menu"></a>
 				</nav>
 			</header>
-
 			<nav id="menu">
 				<div class="inner">
-					<h2>Menu</h2>
-					<ul class="links">
-						<li><a href="index.html">Home</a></li>
-						<li><a href="faq.html">Preguntas Frecuentes</a></li>
-						<li><a href="current_book.html">Lecturas en progreso</a></li>
-						<li><a href="donde-cuando.html">Dónde y cuándo</a></li>
-						<li><a href="gatos.html">Gatos</a></li>
-					</ul>
-					<a href="#" class="close">Close</a>
+					<h2></h2>
+					<ul class="links"></ul>
+					<a href="#" class="close"></a>
 				</div>
 			</nav>
-
 			<section id="wrapper">
 				<header>
 					<div class="inner">
-						<h2>Lecturas en progreso</h2>
-						<p>Lo que estamos leyendo, lo que ya cerramos y lo que podría venir</p>
+						<h2></h2>
+						<p></p>
 					</div>
 				</header>
-
 				<div class="wrapper">
 					<div class="inner">
-
 						<div class="reading-stack">
-
 							<section class="reading-card reading-card--current" aria-labelledby="current-heading">
-								<h3 id="current-heading" class="reading-card-title">Libro en progreso</h3>
+								<h3 id="current-heading" class="reading-card-title"></h3>
 								<div class="cover-wrap">
-									<img src="images/white_nights.jpg" alt="Portada de Noches blancas" width="400" height="600" />
+									<img src="" alt="" />
 								</div>
-								<p class="book-title">Noches Blancas</p>
-								<p class="book-author">Fiódor Dostoievski</p>
-								<p class="book-desc">Un narrador solitario recorre las calles de San Petersburgo en las noches de verano y conoce a una joven que espera a su amor. Una historia breve, íntima y melancólica sobre la fantasía, la espera y la vida vivida en el pensamiento.</p>
+								<p class="book-title"></p>
+								<p class="book-author"></p>
+								<p class="book-desc"></p>
 								<div class="chapters">
-									<span class="chapters-label">Capítulos:</span>
-									<span class="chapters-nums">1, 2</span>
+									<span class="chapters-label"></span>
+									<span class="chapters-nums"></span>
 								</div>
 							</section>
-
 							<section class="reading-card reading-card--list" aria-labelledby="read-heading">
-								<h3 id="read-heading" class="reading-card-title">Libros que hemos leído</h3>
-								<ol class="reading-done">
-									<li> - </li>
-								</ol>
+								<h3 id="read-heading" class="reading-card-title"></h3>
+								<ol class="reading-done"></ol>
 							</section>
-
 							<section class="reading-card reading-card--list" aria-labelledby="suggest-heading">
-								<h3 id="suggest-heading" class="reading-card-title">Posibles libros que podríamos leer</h3>
-								<ul class="reading-suggestions">
-									<li>Frankenstein</li>
-									<li>El arte de amar</li>
-									<li>Orgullo y Prejuicio</li>
-									<li>Yo, Robot</li>
-									<li>Fahrenheit 451</li>
-									<li>Brave New World</li>
-									<li>Get Filthy Rich in Rising Asia</li>
-								</ul>
+								<h3 id="suggest-heading" class="reading-card-title"></h3>
+								<ul class="reading-suggestions"></ul>
 							</section>
-
 						</div>
-
 					</div>
 				</div>
-
 			</section>
-
-			<section id="footer" style="background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('images/cozy_books.jpg'); background-size: cover; background-position: center;">
+			<section id="footer">
 				<div class="inner">
-					<ul class="copyright">
-						<li>Ultima actualización: 2/5/2026</li>
-					</ul>
+					<ul class="copyright"></ul>
 				</div>
 			</section>
-
 		</div>
-
 		<script src="assets/js/jquery.min.js"></script>
 		<script src="assets/js/jquery.scrollex.min.js"></script>
 		<script src="assets/js/browser.min.js"></script>
@@ -268,6 +211,5 @@
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/content-loader.js"></script>
 		<script src="assets/js/main.js"></script>
-
 	</body>
 </html>
