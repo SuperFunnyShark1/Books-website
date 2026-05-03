@@ -32,6 +32,15 @@
         "ancho": 400,
         "alto": 300
       }
+    },
+    {
+      "nombre": "Molly",
+      "foto": {
+        "src": "images/Molly.jpeg",
+        "alt": "Molly",
+        "ancho": 400,
+        "alto": 300
+      }
     }
   ],
   "pieSinCopyright": true
