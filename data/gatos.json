@@ -1,0 +1,38 @@
+{
+  "pagina": "gatos.html",
+  "tituloDocumento": "Gatos — Club de lectura",
+  "encabezadoPagina": {
+    "titulo": "Gatos",
+    "subtitulo": "Las estrellas del club"
+  },
+  "gatos": [
+    {
+      "nombre": "Charlotte",
+      "foto": {
+        "src": "images/charlotte.jpg",
+        "alt": "Charlotte",
+        "ancho": 400,
+        "alto": 300
+      }
+    },
+    {
+      "nombre": "Luna",
+      "foto": {
+        "src": "images/luna.jpg",
+        "alt": "Luna",
+        "ancho": 400,
+        "alto": 300
+      }
+    },
+    {
+      "nombre": "Charlotte",
+      "foto": {
+        "src": "images/charlotte_2.jpg",
+        "alt": "Charlotte",
+        "ancho": 400,
+        "alto": 300
+      }
+    }
+  ],
+  "pieSinCopyright": true
+}

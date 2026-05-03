@@ -1,0 +1,39 @@
+{
+  "pagina": "index.html",
+  "tituloDocumento": "Club de Lectura",
+  "cabeceraAlt": true,
+  "banner": {
+    "imagenFondo": "images/cozy_books.jpg",
+    "titulo": "Club de lectura 😺📖"
+  },
+  "seccionPrincipal": {
+    "titulo": "Para pasarla bien! ",
+    "parrafo": "La idea es leer, conversar sobre libros (y otras cosas!), y hacer amig@s 🌠   ",
+    "tarjetas": [
+      {
+        "enlace": "faq.html",
+        "imagen": "images/coffee.jpg",
+        "altImagen": "",
+        "titulo": "🚨 Preguntas Frecuentes (importante) 🚨",
+        "descripcion": "Qué esperar del club? 🤔",
+        "textoBoton": "Learn more"
+      },
+      {
+        "enlace": "current_book.html",
+        "imagen": "images/white_nights.jpg",
+        "altImagen": "",
+        "titulo": "Lecturas en progreso",
+        "descripcion": "Libros que estamos leyendo, que hemos leído, que podríamos leer 🐈‍",
+        "textoBoton": "Learn more"
+      },
+      {
+        "enlace": "donde-cuando.html",
+        "imagen": "images/map.png",
+        "altImagen": "",
+        "titulo": "Dónde y Cuándo?",
+        "descripcion": "Información de contacto ☎️📞",
+        "textoBoton": "Learn more"
+      }
+    ]
+  }
+}

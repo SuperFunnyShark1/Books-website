@@ -1,0 +1,160 @@
+{
+  "pagina": "faq.html",
+  "tituloDocumento": "Preguntas Frecuentes — Club de lectura",
+  "encabezadoPagina": {
+    "titulo": "Preguntas frecuentes",
+    "subtitulo": "Cosas que saber ✨"
+  },
+  "hero": {
+    "imagen": "images/coffee.jpg",
+    "alt": "Taza de café junto a libros",
+    "ancho": 1200,
+    "alto": 400
+  },
+  "bloqueVacio": {
+    "titulo": "",
+    "parrafo": ""
+  },
+  "preguntas": [
+    {
+      "pregunta": "Hay que haber leído el libro para asistir?",
+      "respuesta": [
+        { "tipo": "parrafo", "texto": "No, para nada!" },
+        {
+          "tipo": "parrafo",
+          "texto": "Si bien vamos a discutir los capitulos seleccionados del libro al principio de la reunión, el resto será para hablar de cualquier cosa y socializar 💫"
+        }
+      ]
+    },
+    {
+      "pregunta": "Cuándo nos juntamos?",
+      "respuesta": [
+        {
+          "tipo": "parrafo",
+          "texto": "El lugar y horario los acordamos por el grupo. Va a ser en la universidad, a la hora de almuerzo. "
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Ya que estamos recién iniciando, no tenemos idea si hacerlo un dia especifico."
+        }
+      ]
+    },
+    {
+      "pregunta": "Cuál es el proposito del club?",
+      "respuesta": [
+        {
+          "tipo": "parrafo",
+          "texto": "Pasarla bien, leer, hablar de todo, y hacer amigos. "
+        },
+        {
+          "tipo": "imagen",
+          "src": "images/cat-smile.gif",
+          "alt": "Cat smile",
+          "estilo": "display: block; margin: 0 auto;"
+        }
+      ]
+    },
+    {
+      "pregunta": "Tienen sala oficial?",
+      "respuesta": [
+        {
+          "tipo": "parrafo",
+          "texto": "No, es un club bastante trucho 🦞 y no estamos asociados a la universidad."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Así que no tenemos cosas como salas oficiales o presupuesto o abogados 😅"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Asi que varias reuniones serán en el pastito."
+        }
+      ]
+    },
+    {
+      "pregunta": "Qué tipo de libros van a leer?",
+      "respuesta": [
+        {
+          "tipo": "parrafo",
+          "texto": "De todo: Fantasía, Sci-Fi, Novelas Filosoficas o Romanticas o de Suspenso o Historicas... de todo. "
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Si tienes alguna recomendación, o libro que quieras leer, avisanos!"
+        }
+      ]
+    },
+    {
+      "pregunta": "Cuantas páginas a la semana?",
+      "respuesta": [
+        {
+          "tipo": "parrafo",
+          "texto": "Si bien queremos leer, no queremos que el club sea una carga; queremos leer porque nos gusta, pero no queremos que se convierta en una tarea."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Es por esto, que no se leeran muchas páginas a la semana, ni libros muy largos o densos. Pero eso no importa, porque lo mas importante no son los libros, sino las personas 😁"
+        }
+      ]
+    },
+    {
+      "pregunta": "Requiere compromiso?",
+      "respuesta": [
+        { "tipo": "parrafo", "texto": "No!" },
+        { "tipo": "parrafo", "texto": "Asiste o falta cuando quieras." }
+      ]
+    },
+    {
+      "pregunta": "Puedo comer?",
+      "respuesta": [
+        { "tipo": "parrafo", "texto": "Obvio!" },
+        {
+          "tipo": "parrafo",
+          "texto": "Es en la hora de almuerzo; yo, por lo menos, no planeo perder el almuerzo 🍖🥪"
+        }
+      ]
+    },
+    {
+      "pregunta": "Código de conducta",
+      "respuesta": [
+        {
+          "tipo": "parrafo",
+          "texto": "Lo usual, respeta a los demas, no hagas cosas raras y trae buenas vibras 😸"
+        }
+      ]
+    },
+    {
+      "pregunta": "Donde consigo libros?",
+      "respuesta": [
+        { "tipo": "parrafo", "texto": "Recuerda que la biblioteca presta libros." },
+        {
+          "tipo": "parrafo",
+          "texto": "Obviamente, también puedes comprarlos o piratearlos."
+        },
+        {
+          "tipo": "enlace",
+          "href": "https://bibliotecas.uc.cl",
+          "texto": "https://bibliotecas.uc.cl",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ]
+    },
+    {
+      "pregunta": "Se pueden proponer actividades además de leer?",
+      "respuesta": [
+        { "tipo": "parrafo", "texto": "Obvio! " },
+        { "tipo": "parrafo", "texto": "Dime tus ideas! " }
+      ]
+    },
+    {
+      "pregunta": "Soy timid@ y no me gusta hablar mucho",
+      "respuesta": [
+        {
+          "tipo": "parrafo",
+          "texto": "No te vamos a forzar a hablar, si quieres venir a escuchar, esta bien!"
+        }
+      ]
+    }
+  ]
+}

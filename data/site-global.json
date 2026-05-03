@@ -1,0 +1,34 @@
+{
+  "ultimaActualizacion": "2/5/2026",
+  "ultimaActualizacionISO": "2026-05-02",
+  "site": {
+    "nombreCorto": "Club de lectura",
+    "marcaCabecera": {
+      "texto": "Club de libros",
+      "enlace": "index.html"
+    },
+    "menu": {
+      "titulo": "Menu",
+      "etiquetaAbrir": "Menu",
+      "textoCerrar": "Close",
+      "enlacesClub": [
+        { "texto": "Home", "href": "index.html" },
+        { "texto": "Preguntas Frecuentes", "href": "faq.html" },
+        { "texto": "Lecturas en progreso", "href": "current_book.html" },
+        { "texto": "Dónde y cuándo", "href": "donde-cuando.html" },
+        { "texto": "Gatos", "href": "gatos.html" }
+      ],
+      "enlacesPlantillaHtml5Up": [
+        { "texto": "Home", "href": "index.html" },
+        { "texto": "Generic", "href": "generic.html" },
+        { "texto": "Elements", "href": "elements.html" },
+        { "texto": "Log In", "href": "#" },
+        { "texto": "Sign Up", "href": "#" }
+      ]
+    },
+    "pieDePagina": {
+      "imagenFondo": "images/cozy_books.jpg",
+      "prefijoUltimaActualizacion": "Ultima actualización:"
+    }
+  }
+}

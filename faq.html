@@ -1,0 +1,332 @@
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+		<title>Preguntas Frecuentes — Club de lectura</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.faq-hero {
+				margin: 0 0 2.5em 0;
+				border-radius: 6px;
+				overflow: hidden;
+				box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+				border: 1px solid rgba(255, 255, 255, 0.08);
+			}
+
+			.faq-hero img {
+				display: block;
+				width: 100%;
+				height: min(42vh, 320px);
+				object-fit: cover;
+				object-position: center;
+			}
+
+			ol.faq-accordion {
+				list-style: none;
+				padding: 0;
+				margin: 0;
+				counter-reset: faq;
+			}
+
+			ol.faq-accordion > li {
+				counter-increment: faq;
+				margin-bottom: 1em;
+			}
+
+			ol.faq-accordion details {
+				background: rgba(255, 255, 255, 0.04);
+				border: 1px solid rgba(255, 255, 255, 0.1);
+				border-radius: 6px;
+				overflow: hidden;
+				transition: border-color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+			}
+
+			ol.faq-accordion details:hover {
+				border-color: rgba(255, 255, 255, 0.2);
+				background: rgba(255, 255, 255, 0.06);
+			}
+
+			ol.faq-accordion details[open] {
+				border-color: rgba(120, 180, 255, 0.45);
+				box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+			}
+
+			ol.faq-accordion summary {
+				display: flex;
+				align-items: center;
+				gap: 1.1em;
+				padding: 1.1em 1.25em;
+				cursor: pointer;
+				list-style: none;
+				font-family: "Rubik", Helvetica, sans-serif;
+				font-weight: 600;
+				font-size: 1.05em;
+				line-height: 1.35;
+				color: rgba(255, 255, 255, 0.95);
+				user-select: none;
+			}
+
+			ol.faq-accordion summary::-webkit-details-marker {
+				display: none;
+			}
+
+			ol.faq-accordion summary::before {
+				content: counter(faq, decimal-leading-zero);
+				flex: 0 0 auto;
+				min-width: 2.5em;
+				height: 2.5em;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				font-size: 0.85em;
+				font-weight: 700;
+				letter-spacing: 0.02em;
+				color: #1a1a2e;
+				background: linear-gradient(145deg, #e8d5b7 0%, #c4a574 50%, #9a7b4f 100%);
+				border-radius: 8px;
+				box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.35);
+			}
+
+			ol.faq-accordion summary::after {
+				content: "";
+				margin-left: auto;
+				width: 0.5em;
+				height: 0.5em;
+				border-right: 2px solid rgba(255, 255, 255, 0.45);
+				border-bottom: 2px solid rgba(255, 255, 255, 0.45);
+				transform: rotate(45deg);
+				transition: transform 0.25s ease;
+				flex-shrink: 0;
+			}
+
+			ol.faq-accordion details[open] summary::after {
+				transform: rotate(-135deg);
+				margin-top: 0.25em;
+			}
+
+			ol.faq-accordion .faq-answer {
+				padding: 0 1.25em 1.25em 4.65em;
+				font-family: "Rubik", Helvetica, sans-serif;
+				font-size: 0.95em;
+				font-weight: 300;
+				line-height: 1.75;
+				color: rgba(255, 255, 255, 0.72);
+				border-top: 1px solid rgba(255, 255, 255, 0.06);
+			}
+
+			ol.faq-accordion .faq-answer p {
+				margin: 0.75em 0 0 0;
+			}
+
+			ol.faq-accordion .faq-answer p:first-child {
+				margin-top: 1em;
+			}
+
+			@media screen and (max-width: 736px) {
+				ol.faq-accordion summary {
+					padding: 1em;
+					font-size: 1em;
+					gap: 0.85em;
+				}
+
+				ol.faq-accordion .faq-answer {
+					padding: 0 1em 1em 1em;
+				}
+
+				ol.faq-accordion summary::before {
+					min-width: 2.25em;
+					height: 2.25em;
+					font-size: 0.8em;
+				}
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+
+		<div id="page-wrapper">
+
+			<header id="header">
+				<h1><a href="index.html">Club de libros</a></h1>
+				<nav>
+					<a href="#menu">Menu</a>
+				</nav>
+			</header>
+
+			<nav id="menu">
+				<div class="inner">
+					<h2>Menu</h2>
+					<ul class="links">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="faq.html">Preguntas Frecuentes</a></li>
+						<li><a href="current_book.html">Lecturas en progreso</a></li>
+						<li><a href="donde-cuando.html">Dónde y cuándo</a></li>
+						<li><a href="gatos.html">Gatos</a></li>
+					</ul>
+					<a href="#" class="close">Close</a>
+				</div>
+			</nav>
+
+			<section id="wrapper">
+				<header>
+					<div class="inner">
+						<h2>Preguntas frecuentes</h2>
+						<p>Cosas que saber ✨</p>
+					</div>
+				</header>
+
+				<div class="wrapper">
+					<div class="inner">
+
+						<div class="faq-hero">
+							<img src="images/coffee.jpg" alt="Taza de café junto a libros" width="1200" height="400" />
+						</div>
+
+						<h3 class="major"></h3>
+						<p></p>
+
+						<ol class="faq-accordion">
+							<li>
+								<details>
+									<summary>Hay que haber leído el libro para asistir?</summary>
+									<div class="faq-answer">
+										<p>No, para nada!</p>
+                                        <p>Si bien vamos a discutir los capitulos seleccionados del libro al principio de la reunión, el resto será para hablar de cualquier cosa y socializar 💫</p>
+									</div>
+								</details>
+							</li>
+							<li>
+								<details>
+									<summary>Cuándo nos juntamos?</summary>
+									<div class="faq-answer">
+										<p>El lugar y horario los acordamos por el grupo. Va a ser en la universidad, a la hora de almuerzo. </p>
+                                        <p>Ya que estamos recién iniciando, no tenemos idea si hacerlo un dia especifico.</p>
+									</div>
+								</details>
+							</li>
+							<li>
+								<details>
+									<summary>Cuál es el proposito del club?</summary>
+									<div class="faq-answer">
+										<p>Pasarla bien, leer, hablar de todo, y hacer amigos. </p>
+										<img src="images/cat-smile.gif" alt="Cat smile" style="display: block; margin: 0 auto;" />
+									</div>
+								</details>
+							</li>
+							<li>
+								<details>
+									<summary>Tienen sala oficial?</summary>
+									<div class="faq-answer">
+										<p>No, es un club bastante trucho 🦞 y no estamos asociados a la universidad.</p>
+                                        <p>Así que no tenemos cosas como salas oficiales o presupuesto o abogados 😅</p>
+                                        <p>Asi que varias reuniones serán en el pastito.</p>
+									</div>
+								</details>
+							</li>
+							<li>
+								<details>
+									<summary>Qué tipo de libros van a leer?</summary>
+									<div class="faq-answer">
+										<p>De todo: Fantasía, Sci-Fi, Novelas Filosoficas o Romanticas o de Suspenso o Historicas... de todo. </p>
+                                        <p>Si tienes alguna recomendación, o libro que quieras leer, avisanos!</p>
+									</div>
+								</details>
+							</li>
+							<li>
+								<details>
+									<summary>Cuantas páginas a la semana?</summary>
+									<div class="faq-answer">
+                                        <p>Si bien queremos leer, no queremos que el club sea una carga; queremos leer porque nos gusta, pero no queremos que se convierta en una tarea.</p>
+                                        <p>Es por esto, que no se leeran muchas páginas a la semana, ni libros muy largos o densos. Pero eso no importa, porque lo mas importante no son los libros, sino las personas 😁</p>
+									</div>
+								</details>
+							</li>
+							<li>
+								<details>
+									<summary>Requiere compromiso?</summary>
+									<div class="faq-answer">
+										<p>No!</p>
+										<p>Asiste o falta cuando quieras.</p>
+									</div>
+								</details>
+							</li>
+							<li>
+								<details>
+									<summary>Puedo comer?</summary>
+									<div class="faq-answer">
+										<p>Obvio!</p>
+										<p>Es en la hora de almuerzo; yo, por lo menos, no planeo perder el almuerzo 🍖🥪</p>
+									</div>
+								</details>
+							</li>
+							<li>
+								<details>
+									<summary>Código de conducta</summary>
+									<div class="faq-answer">
+										<p>Lo usual, respeta a los demas, no hagas cosas raras y trae buenas vibras 😸</p>
+									</div>
+								</details>
+							</li>
+							<li>
+								<details>
+									<summary>Donde consigo libros?</summary>
+									<div class="faq-answer">
+										<p>Recuerda que la biblioteca presta libros.</p>
+                                        <p>Obviamente, también puedes comprarlos o piratearlos.</p>
+										<p><a href="https://bibliotecas.uc.cl" target="_blank" rel="noopener noreferrer">https://bibliotecas.uc.cl</a></p>
+									</div>
+								</details>
+							</li>
+							<li>
+								<details>
+									<summary>Se pueden proponer actividades además de leer?</summary>
+									<div class="faq-answer">
+										<p>Obvio! </p>
+                                        <p>Dime tus ideas! </p>
+
+									</div>
+								</details>
+							</li>
+							<li>
+								<details>
+									<summary>Soy timid@ y no me gusta hablar mucho</summary>
+									<div class="faq-answer">
+										<p>No te vamos a forzar a hablar, si quieres venir a escuchar, esta bien!</p>
+									</div>
+								</details>
+							</li>
+						</ol>
+
+					</div>
+				</div>
+
+			</section>
+
+			<section id="footer" style="background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('images/cozy_books.jpg'); background-size: cover; background-position: center;">
+				<div class="inner">
+					<ul class="copyright">
+						<li>Ultima actualización: 2/5/2026</li>
+					</ul>
+				</div>
+			</section>
+
+		</div>
+
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

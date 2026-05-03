@@ -1,0 +1,40 @@
+{
+  "pagina": "current_book.html",
+  "tituloDocumento": "Lecturas en progreso — Club de lectura",
+  "encabezadoPagina": {
+    "titulo": "Lecturas en progreso",
+    "subtitulo": "Lo que estamos leyendo, lo que ya cerramos y lo que podría venir"
+  },
+  "libroActual": {
+    "tituloSeccion": "Libro en progreso",
+    "portada": {
+      "src": "images/white_nights.jpg",
+      "alt": "Portada de Noches blancas",
+      "ancho": 400,
+      "alto": 600
+    },
+    "titulo": "Noches Blancas",
+    "autor": "Fiódor Dostoievski",
+    "descripcion": "Un narrador solitario recorre las calles de San Petersburgo en las noches de verano y conoce a una joven que espera a su amor. Una historia breve, íntima y melancólica sobre la fantasía, la espera y la vida vivida en el pensamiento.",
+    "capitulos": {
+      "etiqueta": "Capítulos:",
+      "numeros": "1, 2"
+    }
+  },
+  "librosLeidos": {
+    "tituloSeccion": "Libros que hemos leído",
+    "elementos": [" - "]
+  },
+  "sugerencias": {
+    "tituloSeccion": "Posibles libros que podríamos leer",
+    "titulos": [
+      "Frankenstein",
+      "El arte de amar",
+      "Orgullo y Prejuicio",
+      "Yo, Robot",
+      "Fahrenheit 451",
+      "Brave New World",
+      "Get Filthy Rich in Rising Asia"
+    ]
+  }
+}

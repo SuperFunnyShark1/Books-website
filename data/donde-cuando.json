@@ -1,0 +1,43 @@
+{
+  "pagina": "donde-cuando.html",
+  "tituloDocumento": "Dónde y cuándo — Club de lectura",
+  "encabezadoPagina": {
+    "titulo": "Dónde y cuándo",
+    "subtitulo": "Información de contacto"
+  },
+  "redesSociales": {
+    "tituloSeccion": "Redes sociales",
+    "enlaces": [
+      {
+        "clase": "discord",
+        "texto": "Discord",
+        "href": "https://discord.gg/INVITACION-DEL-CLUB",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "clase": "whatsapp",
+        "texto": "Grupo de whatsapp",
+        "href": "https://chat.whatsapp.com/ENLACE-DEL-GRUPO",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    ],
+    "nota": "Sustituye los href por tu invitación real de Discord y el enlace del grupo de WhatsApp"
+  },
+  "lugarReunion": {
+    "tituloSeccion": "Lugar de reunión",
+    "fecha": {
+      "etiqueta": "Fecha:",
+      "texto": "jueves 7 de mayo / 2026."
+    },
+    "foto": {
+      "src": "images/place.jpg",
+      "alt": "Lugar de reunión del club",
+      "ancho": 900,
+      "alto": 500
+    },
+    "etiquetaAlmuerzo": "Hora de almuerzo",
+    "aviso": "Recordar que el lugar y fecha pueden cambiar si surge algún inconveniente! ¡Así que estar atento a las redes!!"
+  }
+}
