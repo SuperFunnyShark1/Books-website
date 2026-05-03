@@ -104,7 +104,15 @@
 				color: rgba(232, 213, 183, 0.95);
 				font-weight: 600;
 			}
-			.where-card .place-photo {
+			.where-card .place-status {
+						font-family: "Rubik", Helvetica, sans-serif;
+						font-size: 1.1em;
+						font-weight: 500;
+						color: rgba(255, 255, 255, 0.88);
+						margin: 0 0 1.25em 0;
+						line-height: 1.5;
+					}
+					.where-card .place-photo {
 				margin: 0 0 1.25em 0;
 				border-radius: 8px;
 				overflow: hidden;
@@ -178,8 +186,9 @@
 							</section>
 							<section class="where-card" aria-labelledby="place-heading">
 								<h3 id="place-heading" class="where-card-title"></h3>
-								<p class="meet-meta"></p>
-								<div class="place-photo">
+									<p class="meet-meta"></p>
+									<p class="meet-meta place-status"></p>
+									<div class="place-photo">
 									<img src="" alt="" />
 								</div>
 								<p class="lunch-label"></p>

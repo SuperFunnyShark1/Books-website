@@ -345,6 +345,17 @@
 				placeImg.height = data.lugarReunion.foto.alto;
 			}
 		}
+		var placeStatus = document.querySelector(".place-status");
+		if (placeStatus && data.lugarReunion && data.lugarReunion.lugar) {
+			var lugar = data.lugarReunion.lugar;
+			if (typeof lugar === "string") {
+				placeStatus.textContent = lugar;
+			} else {
+				var label = lugar.etiqueta || "";
+				var text = lugar.texto || "";
+				placeStatus.innerHTML = "<strong>" + escapeHtml(label) + "</strong> " + escapeHtml(text);
+			}
+		}
 		setText(document.querySelector(".lunch-label"), (data.lugarReunion && data.lugarReunion.etiquetaAlmuerzo) || "");
 		setText(document.querySelector(".notice-warm"), (data.lugarReunion && data.lugarReunion.aviso) || "");
 	}

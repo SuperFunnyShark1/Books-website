@@ -31,6 +31,10 @@
       "etiqueta": "Fecha:",
       "texto": "Jueves 7 de mayo de 2026."
     },
+    "lugar": {
+      "etiqueta": "Lugar:",
+      "texto": "por decidir"
+    },
     "foto": {
       "src": "images/place.jpg",
       "alt": "Lugar de reunión del club",
