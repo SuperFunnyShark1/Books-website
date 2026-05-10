@@ -9,27 +9,24 @@
     "tituloSeccion": "Redes sociales",
     "enlaces": [
       {
-        "clase": "discord",
-        "texto": "Discord",
-        "href": "https://discord.gg/INVITACION-DEL-CLUB",
-        "target": "_blank",
-        "rel": "noopener noreferrer"
-      },
-      {
         "clase": "whatsapp",
         "texto": "Grupo de WhatsApp",
-        "href": "https://chat.whatsapp.com/ENLACE-DEL-GRUPO",
+        "href": "https://chat.whatsapp.com/J2JV4IsqxODIQNUi4ildeP",
         "target": "_blank",
         "rel": "noopener noreferrer"
       }
     ],
     "nota": "Sustituye los href por tu invitación real de Discord y el enlace del grupo de WhatsApp."
   },
+  "primeraReunion": {
+    "tituloSeccion": "⚠️ Aviso importante!",
+    "texto": "Es la primera reunión del club! Así que comenzaremos a leer desde la segunda en adelante 🐭"
+  },
   "lugarReunion": {
     "tituloSeccion": "Lugar de reunión",
     "fecha": {
       "etiqueta": "Fecha:",
-      "texto": "Jueves 7 de mayo de 2026."
+      "texto": "Semana siguiente a la semana de receso... más detalles pronto! 🐻"
     },
     "lugar": {
       "etiqueta": "Lugar:",

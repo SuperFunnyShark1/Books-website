@@ -327,8 +327,14 @@
 				.join("");
 		}
 
+		setText(document.querySelector("#first-meeting-heading"), (data.primeraReunion && data.primeraReunion.tituloSeccion) || "");
+		var firstMeetingText = document.querySelector(".first-meeting-text");
+		if (firstMeetingText && data.primeraReunion && data.primeraReunion.texto) {
+			setText(firstMeetingText, data.primeraReunion.texto);
+		}
+
 		setText(document.querySelector("#place-heading"), (data.lugarReunion && data.lugarReunion.tituloSeccion) || "");
-		var meetMeta = document.querySelector(".meet-meta");
+		var meetMeta = document.querySelector("#place-heading").closest(".where-card").querySelector(".meet-meta");
 		if (meetMeta && data.lugarReunion && data.lugarReunion.fecha) {
 			var label = data.lugarReunion.fecha.etiqueta || "";
 			var text = data.lugarReunion.fecha.texto || "";
