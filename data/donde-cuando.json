@@ -26,17 +26,17 @@
     "tituloSeccion": "Lugar de reunión",
     "fecha": {
       "etiqueta": "Fecha:",
-      "texto": "Semana siguiente a la semana de receso... más detalles pronto! 🐻"
+      "texto": "Jueves 28 de Mayo - 28/05/2026 🐻"
     },
     "lugar": {
       "etiqueta": "Lugar:",
-      "texto": "por decidir"
+      "texto": "Lugar tentativo: Pasto frente a Ingeniería Comercial"
     },
     "foto": {
-      "src": "images/place.jpg",
+      "src": "images/meeting places/comercial 1.jpeg",
       "alt": "Lugar de reunión del club",
-      "ancho": 900,
-      "alto": 500
+      "ancho": 400,
+      "alto": 222
     },
     "etiquetaAlmuerzo": "Hora de almuerzo",
     "aviso": "Recuerda que el lugar y la fecha pueden cambiar si surge algún inconveniente. ¡Así que mantente atento a las redes!"
