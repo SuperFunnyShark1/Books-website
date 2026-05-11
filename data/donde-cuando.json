@@ -3,7 +3,7 @@
   "tituloDocumento": "Dónde y cuándo — Club de lectura",
   "encabezadoPagina": {
     "titulo": "Dónde y cuándo",
-    "subtitulo": "Información de contacto"
+    "subtitulo": ""
   },
   "redesSociales": {
     "tituloSeccion": "Redes sociales",
@@ -18,9 +18,9 @@
     ],
     "nota": "Sustituye los href por tu invitación real de Discord y el enlace del grupo de WhatsApp."
   },
-  "primeraReunion": {
-    "tituloSeccion": "⚠️ Aviso importante!",
-    "texto": "Es la primera reunión del club! Así que comenzaremos a leer desde la segunda en adelante 🐭"
+  "avisoMantitas": {
+    "tituloSeccion": "",
+    "texto": "Pueden traer mantitas o toallas, por si la reunión es en el pasto. "
   },
   "lugarReunion": {
     "tituloSeccion": "Lugar de reunión",
@@ -30,7 +30,7 @@
     },
     "lugar": {
       "etiqueta": "Lugar:",
-      "texto": "(Lugar tentativo) Pasto frente a Ingeniería Comercial"
+      "texto": "Pasto frente a Ingeniería Comercial (Lugar tentativo) "
     },
     "foto": {
       "src": "images/meeting places/comercial 1.jpeg",
@@ -38,7 +38,7 @@
       "ancho": 400,
       "alto": 222
     },
-    "etiquetaAlmuerzo": "Hora de almuerzo",
-    "aviso": "Recuerda que el lugar y la fecha pueden cambiar si surge algún inconveniente. ¡Así que mantente atento a las redes!"
+    "etiquetaAlmuerzo": " 1:30pm - Hora de almuerzo",
+    "aviso": "Recuerda que el lugar y la fecha pueden cambiar si surge algún inconveniente ☔. ¡Así que mantente atento a las redes! "
   }
 }

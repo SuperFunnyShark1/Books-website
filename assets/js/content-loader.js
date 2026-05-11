@@ -297,6 +297,12 @@
 				})
 				.join("");
 		}
+
+		setText(document.querySelector("#announcement-heading"), (data.primeraReunion && data.primeraReunion.tituloSeccion) || "");
+		var announcementText = document.querySelector(".announcement-text");
+		if (announcementText && data.primeraReunion && data.primeraReunion.texto) {
+			setText(announcementText, data.primeraReunion.texto);
+		}
 	}
 
 	function renderDondeCuando(data) {
@@ -327,10 +333,10 @@
 				.join("");
 		}
 
-		setText(document.querySelector("#first-meeting-heading"), (data.primeraReunion && data.primeraReunion.tituloSeccion) || "");
-		var firstMeetingText = document.querySelector(".first-meeting-text");
-		if (firstMeetingText && data.primeraReunion && data.primeraReunion.texto) {
-			setText(firstMeetingText, data.primeraReunion.texto);
+		setText(document.querySelector("#reminder-heading"), (data.avisoMantitas && data.avisoMantitas.tituloSeccion) || "");
+		var reminderText = document.querySelector(".reminder-text");
+		if (reminderText && data.avisoMantitas && data.avisoMantitas.texto) {
+			setText(reminderText, data.avisoMantitas.texto);
 		}
 
 		setText(document.querySelector("#place-heading"), (data.lugarReunion && data.lugarReunion.tituloSeccion) || "");

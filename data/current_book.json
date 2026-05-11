@@ -21,6 +21,10 @@
       "numeros": "-"
     }
   },
+  "primeraReunion": {
+    "tituloSeccion": "⚠️ Aviso importante!",
+    "texto": "Es la primera reunión del club! Así que comenzaremos a leer desde la segunda en adelante 🐭"
+  },
   "librosLeidos": {
     "tituloSeccion": "Libros que hemos leído",
     "elementos": [" - "]
@@ -28,14 +32,15 @@
   "sugerencias": {
     "tituloSeccion": "Posibles libros que podríamos leer",
     "titulos": [
-      "Frankenstein",
-      "El arte de amar",
+        
       "Orgullo y Prejuicio",
+      "El arte de amar",
+      "Frankenstein",
       "Yo, Robot",
       "Fahrenheit 451",
       "Brave New World",
       "Get Filthy Rich in Rising Asia",
-      "Primer Amor de Ivan Turgenev"
+      "Primer Amor, de Ivan Turgenev"
     ]
   }
 }

@@ -147,6 +147,14 @@
 			.reading-card ul.reading-suggestions li::marker {
 				color: rgba(200, 175, 130, 0.85);
 			}
+			.reading-card .announcement-text {
+				font-family: "Rubik", Helvetica, sans-serif;
+				font-size: 1.1em;
+				font-weight: 500;
+				color: rgba(255, 255, 255, 0.88);
+				line-height: 1.5;
+				margin: 0;
+			}
 			@media screen and (max-width: 736px) {
 				.reading-card {
 					padding: 1.5em 1.25em 1.35em;
@@ -194,6 +202,10 @@
 									<span class="chapters-label"></span>
 									<span class="chapters-nums"></span>
 								</div>
+							</section>
+							<section class="reading-card" aria-labelledby="announcement-heading">
+								<h3 id="announcement-heading" class="reading-card-title"></h3>
+								<p class="announcement-text"></p>
 							</section>
 							<section class="reading-card reading-card--list" aria-labelledby="read-heading">
 								<h3 id="read-heading" class="reading-card-title"></h3>
