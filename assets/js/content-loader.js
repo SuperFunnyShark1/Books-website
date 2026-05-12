@@ -168,6 +168,29 @@
 				})
 				.join("");
 		}
+
+		setText(document.querySelector(".where-card-title"), (data.redesSociales && data.redesSociales.tituloSeccion) || "");
+		var socialLinks = document.querySelector(".where-card .social-links");
+		if (socialLinks && data.redesSociales && Array.isArray(data.redesSociales.enlaces)) {
+			socialLinks.innerHTML = data.redesSociales.enlaces
+				.map(function (link) {
+					var target = link.target ? ' target="' + escapeAttr(link.target) + '"' : "";
+					var rel = link.rel ? ' rel="' + escapeAttr(link.rel) + '"' : "";
+					return (
+						'<a class="social-btn social-btn--' +
+						escapeAttr(link.clase) +
+						'" href="' +
+						escapeAttr(link.href) +
+						'"' +
+						target +
+						rel +
+						">" +
+						escapeHtml(link.texto) +
+						"</a>"
+					);
+				})
+				.join("");
+		}
 	}
 
 	function renderFaq(data) {

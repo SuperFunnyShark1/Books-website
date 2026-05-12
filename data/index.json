@@ -35,5 +35,18 @@
         "textoBoton": "Learn more"
       }
     ]
+  },
+  "redesSociales": {
+    "tituloSeccion": "Redes sociales",
+    "enlaces": [
+      {
+        "clase": "whatsapp",
+        "texto": "Grupo de WhatsApp",
+        "href": "https://chat.whatsapp.com/J2JV4IsqxODIQNUi4ildeP",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    ],
+    "nota": "Sustituye los href por tu invitación real de Discord y el enlace del grupo de WhatsApp."
   }
 }
